@@ -1,0 +1,26 @@
+server:
+  port: 9000
+  servlet:
+    context-path: /moonoopoolyy
+
+logging:
+  pattern:
+    file: '%d{yyyy-MM-dd } [%thread] %-5level %logger{36} - - %msg%n'
+  file:
+    name: /Users/israelsandoval/Documents/Logs/rest_moonoopoolyy.log
+  level:
+    root: INFO
+
+jwt:
+  secret:
+    key: ENC(Kr11TO45uI2+U9afnN9SyKCVLD7YFk3TzNWmblriYJ4=)
+    id: ENC(El6rfXnZryO8qa+2O1shq5qqYq7Lr1L3PNTW+bZfWXc=)
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    jdbc-url: ENC(t2X58bS/DzG7N2PjfaWZx2RFVnOjcVa6/5IuhOKjItwZXacV8g4Yk/uA0GuR6RGFAW5myK8J8+o=)
+    username: ENC(P+nJF2+R5kjBHRSuzGgCR1EjGjGnO4jJ)
+    password: ENC(WLi580VkHJd2BfaqYP7p90eWi0bZbqBm)
+  jpa:
+    database: postgresql
